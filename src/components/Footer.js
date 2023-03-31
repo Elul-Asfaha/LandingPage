@@ -5,25 +5,28 @@ const Footer=()=>{
             <>
                 <div>Logo</div>
             </>
-            <div>
+            <div className='flex flex-col gap-3'>
                 <h4 className="text-lg font-bold">Ethiopia</h4>
-                <address>
+                <address className='flex gap-3'>
                     <PinDropIcon style={{color: 'red'}}/>
-                    Lorem, ipsum dolor. Street</address>
+                    Lorem, ipsum dolor. Street
+                    </address>
                 <a href="tel:+">13431243143214</a>
             </div>
-            <div>
-                <h4 className="text-lg font-bold flex items-center">Kenya</h4>
-                <address>
+            <div className='flex flex-col gap-3'>
+                <h4 className="text-lg font-bold">Kenya</h4>
+                <address className='flex gap-3'>
                     <PinDropIcon style={{color: 'red'}}/> 
-                    Lorem, ipsum dolor. Street</address>
+                    Lorem, ipsum dolor. Street
+                    </address>
                 <a href="tel:+">3143143143143</a>
             </div>
-            <div>
+            <div className='flex flex-col gap-3'>
                 <h4 className="text-lg font-bold">Somalia</h4>
-                <address>
+                <address className='flex gap-3'>
                     <PinDropIcon style={{color: 'red'}}/>
-                        Lorem, ipsum dolor. Street</address>
+                    Lorem, ipsum dolor. Street
+                </address>
                 <a href="tel:+">13413241343124</a>
             </div>
         </footer>
