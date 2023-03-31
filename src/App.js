@@ -8,7 +8,7 @@ function App() {
     setToggleNav(!toggleNav)
   }
   return (
-    <div className="bg-black min-h-screen dart:text-white font-Montserrat dark:bg-black">
+    <div className="bg-black overscroll-contain min-h-screen dart:text-white font-Montserrat dark:bg-black">
        {toggleNav?<Nav provideNavToggler={handleToggleNav}/>:''}
        {!toggleNav?<Main provideNavToggler={handleToggleNav}/>:''}
     </div>
