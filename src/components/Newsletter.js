@@ -1,7 +1,6 @@
 const Newsletter=()=>{
     return(
         <section className="snap-start">
-
         </section>
     )
 }
