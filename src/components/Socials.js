@@ -7,19 +7,19 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 const Socials=()=>{
     return(
         <div className='flex p-5 gap-2 md:gap-5 '>
-            <a href='#.html'>
+            <a href='https://facebook.com' target='_blank' rel='noreferrer'>
                 <FacebookIcon  style={{fontSize: '35px'}}/>
             </a>
-            <a href='#.html'>
+            <a href='https://linkedin.com' target="_blank" rel='noreferrer'>
                 <LinkedInIcon  style={{fontSize: '35px'}}/>
             </a>
-            <a href='#.html'>
+            <a href='https://twitter.com' target='_blank' rel='noreferrer'>
                 <TwitterIcon  style={{fontSize: '35px'}}/>
             </a>
-            <a href='#.html'>
+            <a href='https://instagram.com' target="_blank" rel='noreferrer'>
                 <InstagramIcon  style={{fontSize: '35px'}}/>
             </a>
-            <a href='#.html'>
+            <a href='https://youtube.com' target="_blank" rel='noreferrer'>
                 <YouTubeIcon  style={{fontSize: '35px'}}/>
             </a>
         </div>

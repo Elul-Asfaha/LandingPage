@@ -1,7 +1,7 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 const Intro=()=>{
     return(
-        <section  className="snap-start border-white flex flex-col lg:flex-row text-white min-h-[70vh] items-center px-[10%] pb-5 ">
+        <section  className="snap-start border-white flex flex-col lg:flex-row text-white min-h-[70vh] items-center px-[10%] pb-5" id='homeSection' >
             <div className='flex-1 flex flex-col justify-between text-white px-[2%] gap-5'>
                 <h1 className=" text-sm">
                     FOR ECOMMERC AND CONSUMER BRANDS
