@@ -1,7 +1,7 @@
 import MenuIcon from '@mui/icons-material/Menu';
 const Header=(props)=>{
     return(
-        <header className='flex font-Alkatra justify-between text-white py-[50px] px-[10%]'>
+        <header className='flex font-Alkatra justify-between text-white py-[30px] md:px-[50px] px-[5%] md:px-[10%]'>
             <div className='text-4xl'>
                 Lorem ipsum
             </div>

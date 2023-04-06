@@ -6,8 +6,8 @@ const Nav=(props)=>{
 
     return(
         <nav className='bg-white h-screen text-black dark:text-white dark:bg-black'>
-            <div className="text-white cursor-pointer flex justify-between py-[3%] px-[10%]" >
-                <div>
+            <div className="text-white cursor-pointer flex items-center justify-between py-[3%] px-[10%] mb-[10px]" >
+                <div className='text-black dark:text-white'>
                     Lorem, ipsum.
                 </div>
                 <span className='transform text-black dark:text-white dark:bg-black hover:rotate-45 hover:rotate-90 hover:delay-300'> 

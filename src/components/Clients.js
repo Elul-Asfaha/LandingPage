@@ -16,7 +16,7 @@ const Clients=()=>{
         setSlidePos(item=>(item<=2)?item+1:item=0)
     }
     return(
-        <section  className="snap-start text-white items-center justify-center min-h-[85vh] w-100 relative overflow-hidden">
+        <section  className="snap-start text-white items-center justify-center min-h-[85vh] w-full relative overflow-hidden">
             <div className='flex flex-row w-100 duration-500' style={{transform: `translateX(-${slidePos*100}%)`}}>
              
                 <div className="min-w-full flex flex-col md:flex-row p-[10%] gap-5 items-center">
@@ -104,7 +104,7 @@ const Clients=()=>{
                 </div>
                 
             </div>
-            <div className="absolute inset-0 flex text-white space-betwee justify-between items-center px-5">
+            <div className="absolute inset-0 flex text-white space-betwee justify-between items-center px-3 sm:px-5">
                 <div onClick={handleLeft} className='cursor-pointer'>
                     <KeyboardArrowLeftIcon/>
                 </div>
