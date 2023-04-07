@@ -1,6 +1,6 @@
 const Whowehelp=()=>{
      return(
-        <section className="snap-start min-h-[87vh] bg-gray-100 text-black dark:bg-black dark:text-white px-[13%] flex flex-col justify-center py-[100px] gap-[20px] sm:gap-[40px] md:gap-[60px] lg:gap-[80px]">
+        <section className="snap-start min-h-[87vh] bg-gray-100 text-black dark:bg-black dark:text-white px-[13%] flex flex-col justify-center py-[100px] gap-[20px] sm:gap-[40px] md:gap-[60px] lg:gap-[80px]" id="whowehelp">
             <p className="font-bold text-xl text-gray-700 dark:text-gray-300">Who We Help.</p>
             
             <div className="w-full grid grid-cols-1 items-center justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">

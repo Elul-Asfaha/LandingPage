@@ -42,7 +42,9 @@ const Inquire=()=>{
 
                 <div className="flex flex-col gap-1">
                     <label>phone number</label>
-                    <input type='tel' pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder='xxx-xxx-xxxx' name='phone' value={info.phone} onChange={handleInput} className="outline-none py-1 px-2  border border-white text-black dark:text-white border-2"/>
+                    <input type='tel' 
+                        // pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                      placeholder='xxx-xxx-xxxx' name='phone' value={info.phone} onChange={handleInput} className="outline-none py-1 px-2  border border-white text-black dark:text-white border-2"/>
                 </div>
 
                 <div className="flex flex-col gap-1">

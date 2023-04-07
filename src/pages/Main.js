@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import Intro from "../components/Intro"
 import Whowehelp from "../components/Whowehelp"
 import Footer from "../components/Footer"
-import ClientsExperiences from "../components/Clients_experiences"
+import ClientsFeedback from "../components/Clients_feedback"
 import Clients from "../components/Clients"
 
 const Main=(props)=>{
@@ -12,7 +12,7 @@ const Main=(props)=>{
         <Header provideNavToggler={props.provideNavToggler}/>
         <Intro/>
         <Whowehelp/>
-        <ClientsExperiences/>
+        <ClientsFeedback/>
         <Clients/>
         <Inquire/>
         <Footer/>

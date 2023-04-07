@@ -23,16 +23,28 @@ const Nav=(props)=>{
                         Home
                     </div>
                 </Link>
+                <Link to="#whowehelp" onClick={props.provideNavToggler}>
+                    <div className='border-b-2 border-white hover:border-black dark:border-black dark:hover:border-white cursor-pointer'>
+                        Brands
+                    </div>
+                </Link>
+                <Link to="#clientsFeedback" onClick={props.provideNavToggler}>
+                    <div className='border-b-2 border-white hover:border-black dark:border-black dark:hover:border-white cursor-pointer'>
+                        Feedback
+                    </div>
+                </Link>
+                <Link to="#clientExperience" onClick={props.provideNavToggler}>
+                    <div className='border-b-2 border-white hover:border-black dark:border-black dark:hover:border-white cursor-pointer'>
+                        Experience
+                    </div>
+                </Link>
                 <Link to="#inquireSection" onClick={props.provideNavToggler}>
                     <div className='border-b-2 border-white hover:border-black dark:border-black dark:hover:border-white cursor-pointer'>
                         Inquire
                     </div>
                 </Link>
-                <Link to="" onClick={props.provideNavToggler}>
-                    <div className='border-b-2 border-white hover:border-black dark:border-black dark:hover:border-white cursor-pointer'>
-                        Contact
-                    </div>
-                </Link>
+
+
                 <Socials/>
             </div>
         </nav>
