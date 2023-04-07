@@ -112,7 +112,7 @@ const Clients_feedback=()=>{
                     <KeyboardArrowRightIcon/>
                 </div>
             </div>
-            <div className='flex gap-1 justify-center absolute bottom-0 left-0 right-0 mb-5'>
+            <div className='flex gap-2 md:gap-1 justify-center absolute bottom-0 left-0 right-0 mb-5'>
                 <div className="bg-white py-1 px-[.4rem] cursor-pointer" onClick={()=>setSlidePos(0)} style={{backgroundColor: slidePos===0? 'gray': 'white'}} />
                 <div className="bg-white py-1 px-[.4rem] cursor-pointer" onClick={()=>setSlidePos(1)} style={{backgroundColor: slidePos===1? 'gray': 'white'}}/>
                 <div className="bg-white py-1 px-[.4rem] cursor-pointer" onClick={()=>setSlidePos(2)} style={{backgroundColor: slidePos===2? 'gray': 'white'}}/>
