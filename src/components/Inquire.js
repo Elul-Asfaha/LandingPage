@@ -49,7 +49,7 @@ const Inquire=()=>{
 
                 <div className="flex flex-col gap-1">
                     <label>what do you need help with?</label>
-                    <input type='textarea' name='details' value={info.details} onChange={handleInput} className="outline-none py-1 px-2 border border-white text-black dark:text-white border-2"/>
+                    <textarea type='textarea' name='details' value={info.details} onChange={handleInput} className="outline-none py-1 px-2 border border-white text-black dark:text-white border-2"/>
                 </div>
                 <button className=" text-white font-bold bg-black border-white border-2  py-1 border text-2xl mx-auto w-full md:w-[70%] lg:w-[55%]">
                    Inquire

@@ -1,5 +1,6 @@
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-const Intro=()=>{
+import { HashLink as Link } from 'react-router-hash-link';
+const Intro=(props)=>{
     return(
         <section  className="snap-start border-white flex flex-col lg:flex-row text-white min-h-[70vh] items-center px-[30px] pb-5" id='homeSection' >
             <div className='flex-1 flex flex-col justify-between text-white px-[2%] gap-5'>
@@ -10,7 +11,9 @@ const Intro=()=>{
                     The Go-To Agency for DTC and ECommerce Marketing
                 </h2>
                 <div className="p-2 mx-auto min-w-[160px] text-center hover:bg-white hover:text-black cursor-pointer flex justify-center gap-1">
-                    Get in Touch <ArrowRightAltIcon/>
+                    <Link to="#inquireSection">
+                        Get in Touch <ArrowRightAltIcon/>
+                    </Link>
                 </div>
             </div>
             <div className='flex-1 py-3 '>
